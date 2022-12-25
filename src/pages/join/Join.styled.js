@@ -82,6 +82,9 @@ export const BtJoin = styled.button`
     color:var(--light-color);
     background-color: var(--button-color);
     margin-top: 1rem;
+    &:hover{
+        background-color: var(--buttonhover-color)
+    }
 `;
 
 export const Circle = styled.div`

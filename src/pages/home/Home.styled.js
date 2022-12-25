@@ -56,6 +56,9 @@ export const BtHome = styled.button`
     background-color: var(--button-color);
     margin-top: 1.7rem;
     cursor: pointer;
+    &:hover{
+        background-color: var(--buttonhover-color)
+    }
 `;
 
 export const CircleOne = styled.div`

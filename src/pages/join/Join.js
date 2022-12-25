@@ -14,6 +14,8 @@ function Join() {
     })
   };
 
+  console.log(form);
+
   
   return (
     <CtAux>
@@ -35,7 +37,7 @@ function Join() {
         </CtForm>
         <Circle circleColor up top='18%' left='-17%' w='45vw' h='45vw' topM='66vh'/>
       </CtJoin>
-      <Footer/>
+      <Footer />
     </CtAux>
   )
 }
