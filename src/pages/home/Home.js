@@ -15,8 +15,8 @@ function Home() {
           <TxtHome>Stream over 20 thousand songs with one click</TxtHome>
           <Link to='/join'><BtHome>Join Now</BtHome></Link>
         </CtTxt>
-        <CircleTwo colorone top='13vw' left='3vw' />
-        <CircleTwo top='0vw' left='30vw'/>
+        <CircleTwo colorone top='13vw' left='3vw' topM='70vh' />
+        <CircleTwo top='0vw' left='30vw' topM='0vh'/>
         <CircleOne/>
       </CtHome>
       

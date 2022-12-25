@@ -9,11 +9,17 @@ export const CtHome = styled.div`
     height: 85vh;
     position: relative;
     overflow: hidden;
+    @media (max-width: 564px) {
+        min-width: 0px;
+    }
 `;
 
 export const CtImg = styled.img`
     height: 80%;
     z-index: 1;
+    @media (max-width: 564px) {
+        display: none;
+    }
 `;
 
 export const CtTxt = styled.div`
@@ -24,6 +30,9 @@ export const CtTxt = styled.div`
     height: 85vh;
     width: 30vw;
     padding-left: 5vw;
+    @media (max-width: 564px) {
+        width: 90vw;
+    }
 `;
 
 export const TitleHome = styled.h2`
@@ -57,6 +66,10 @@ export const CircleOne = styled.div`
     position: absolute;
     bottom: -27%;
     right: -28%;
+    @media (max-width: 564px) {
+        bottom: -10%;
+        right: -20%;
+    }
 `;
 
 export const CircleTwo = styled.div`
@@ -67,4 +80,9 @@ export const CircleTwo = styled.div`
     position: absolute;
     top: ${props => props.top};
     left: ${props => props.left};
+    @media (max-width: 564px) {
+        top: ${props => props.topM};;
+    }
+
+    
 `;

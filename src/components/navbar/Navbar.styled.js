@@ -7,15 +7,22 @@ export const CtNavbar = styled.div`
     justify-content: space-around;
     align-items: center;
     height: 15vh;
+    @media (max-width: 564px) {
+        min-width: 0px;
+
+    }
 `;
 
 export const CtLogo = styled.div`
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 1rem;
 `;
 
 export const Logo = styled.img`
     width: 100%;
+    height: 100%;
 `;
 
 export const LogoTxt = styled.h2`
