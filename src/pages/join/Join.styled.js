@@ -31,7 +31,7 @@ export const CtTitle = styled.div`
 `;
 
 export const TitleJoin = styled.h2`
-    color: ${props => props.color ? 'var(--light-color)' : 'var(--accentext-color)'};
+    color: ${props => props.txtColor ? 'var(--light-color)' : 'var(--accentext-color)'};
     font-size: 3rem;
     font-weight: 700;
     margin-left: 3%;
@@ -71,6 +71,7 @@ export const InputJoin = styled.input`
     width: 100%;
     height: 12%;
     background-color: transparent;
+    color: var(--light-color);
 `;
 
 export const BtJoin = styled.button`
@@ -87,7 +88,7 @@ export const Circle = styled.div`
     width: ${props => props.w};
     height: ${props => props.h};
     border-radius: 50%;
-    background-color: ${props => props.colorone ? 'var(--circle1-color)': 'var(--circle2-color)'};
+    background-color: ${props => props.circleColor ? 'var(--circle1-color)' : 'var(--circle2-color)'};
     position: absolute;
     top: ${props => props.top};
     left: ${props => props.left};

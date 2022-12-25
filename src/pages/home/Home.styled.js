@@ -83,6 +83,4 @@ export const CircleTwo = styled.div`
     @media (max-width: 564px) {
         top: ${props => props.topM};;
     }
-
-    
 `;
