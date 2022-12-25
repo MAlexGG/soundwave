@@ -1,7 +1,7 @@
 import React from 'react';
 import twitter from '../../assets/images/twitter.svg';
 import facebook from '../../assets/images/facebook.svg';
-import { CtFooter, CtFooterLinks, ImgSocialMedial, TxtFooter } from './Footer.styled'
+import { CtFooter, CtFooterLinks, ImgSocialMedial, TxtFooter, CtFooterSocialMedia } from './Footer.styled'
 
 function Footer() {
   return (
@@ -12,14 +12,14 @@ function Footer() {
                   <TxtFooter>Contact</TxtFooter>
               </CtFooterLinks>
               <CtFooterLinks>
-                  <CtFooterLinks>
+                  <CtFooterSocialMedia>
                       <ImgSocialMedial src={twitter} alt='twitter'/>
                       <TxtFooter>Twitter</TxtFooter>
-                  </CtFooterLinks>
-                  <CtFooterLinks>
+                  </CtFooterSocialMedia>
+                  <CtFooterSocialMedia>
                       <ImgSocialMedial src={facebook} alt='facebook'/>
                       <TxtFooter>Facebook</TxtFooter>
-                  </CtFooterLinks>
+                  </CtFooterSocialMedia>
               </CtFooterLinks>
           </CtFooter>
       
