@@ -12,6 +12,10 @@ export const CtJoin = styled.div`
     background-color: var(--main-color);
     position: relative;
     overflow: hidden;
+    @media (max-width: 564px) {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
 `;
 
 export const CtTitle = styled.div`
@@ -19,6 +23,11 @@ export const CtTitle = styled.div`
     justify-content: center;
     align-items: center;
     width: 25%;
+    @media (max-width: 564px) {
+        flex-direction: column;
+        width: 90vw;
+        align-items: flex-start;
+    }
 `;
 
 export const TitleJoin = styled.h2`
@@ -26,6 +35,9 @@ export const TitleJoin = styled.h2`
     font-size: 3rem;
     font-weight: 700;
     margin-left: 3%;
+    @media (max-width: 564px) {
+        margin: 0%;
+    }
 `;
 
 export const CtForm = styled.form`
@@ -39,6 +51,13 @@ export const CtForm = styled.form`
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    z-index: 1;
+    @media (max-width: 564px) {
+         width: 70vw;
+         height: 40vh;
+         margin-left: 0%;
+         padding: 5% 8% 5% 8%;
+    }
 `;
 
 export const LabelJoin = styled.label`
@@ -73,4 +92,7 @@ export const Circle = styled.div`
     top: ${props => props.top};
     left: ${props => props.left};
     z-index: ${props => props.z};
+    @media (max-width: 564px) {
+        top: ${props => props.topM};
+    }
 `;
