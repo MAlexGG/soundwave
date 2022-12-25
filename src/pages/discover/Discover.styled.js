@@ -18,7 +18,7 @@ export const CtDiscoverTxt = styled.div`
 
 export const TitleDiscover = styled.h2`
     font-size: 3rem;
-    font-size: 400;
+    font-weight: 400;
     color: var(--light-color);
     margin: 0% 0% 2% 0%;
 `;
